@@ -1,3 +1,4 @@
+import Calculator from "./additional.js";
 export default class User{
 
     constructor() {
@@ -9,6 +10,10 @@ export default class User{
 
     methodOne(){
         console.log(this.data);
+    }
+    methodTwo(){
+        let calculator = new Calculator();
+        console.log(calculator.calculate(3,5));
     }
 
 }

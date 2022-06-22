@@ -30,6 +30,7 @@
         sirname: user.data.sirname
     };
     user.methodOne();
+    user.methodTwo();
 
 </script>
 
