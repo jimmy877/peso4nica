@@ -13,7 +13,8 @@
 <script type="importmap">
     {
         "imports":{
-         "js/":"./js/"
+         "js1":"./js/moduleOne.js",
+         "js2":"./js/moduleTwo.js"
         }
     }
 </script>
